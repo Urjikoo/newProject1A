@@ -44,7 +44,7 @@ let result1= document.querySelector("#outcome")
 
 function apiCall(){
   let nameOfObject = document.querySelector('h1').innerText
-   fetch (`https://www.googleapis.com/customsearch/v1?key=AIzaSyDNPtBdXEkN_R85DDzctdkmOK1OQJ99dZA&cx=8cb38a72715546101&q=${nameOfObject}`)
+   fetch (`https://www.googleapis.com/customsearch/v16101&q=${nameOfObject}`)
    .then (res => res.json())
      .then(data=>{
        console.log(data)
