@@ -106,3 +106,4 @@ dist
 .env
 aws.js
 database.js
+img
