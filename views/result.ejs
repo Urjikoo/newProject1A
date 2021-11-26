@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>The peek app!</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+
+
+        <% if(nameOfObject) { %>
+            <img src='<%=img%>' alt="<%=nameOfObject%>">
+
+              <h1> <%= nameOfObject%></h1>
+        <% }else { %>
+            <img src='<%=img%>'>
+            <h1>Try again!</h1>
+        <% } %>
+        <p id="outcome"></p>
+  </body>
+</html>
